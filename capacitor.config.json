@@ -1,0 +1,7 @@
+{
+  "appId": "ph.deped.nuclearwars",
+  "appName": "Nuclear Wars",
+  "webDir": "www",
+  "backgroundColor": "#0c0820",
+  "android": { "allowMixedContent": false }
+}
