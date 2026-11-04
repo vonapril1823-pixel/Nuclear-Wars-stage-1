@@ -24,3 +24,6 @@ Replace `www/index.html` with the new game file (keep the name), run `npx cap sy
 ## Notes
 - Debug-signed APKs install fine for classroom sideloading. A Play Store release needs your own signing key.
 - Camera permission is only used to scan the Versus invite QR code.
+
+## Lobby list and spectators (app only)
+Phones on the same hotspot find each other automatically. The host taps Create lobby; other phones open Versus and tap Join Game or Watch. This uses a small native plugin, `android/app/src/main/java/ph/deped/nuclearwars/NWLan.java`. The HTML file alone still works with invite codes, including a spectator code for a PC.
